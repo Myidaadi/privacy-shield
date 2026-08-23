@@ -13,6 +13,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Info
 import com.google.accompanist.permissions.*
 import com.privacyshield.app.model.PrivacyState
 import com.privacyshield.app.ui.*
@@ -125,7 +127,7 @@ private fun CameraPermissionDialog(
         onDismissRequest = onDisableShield,
         icon = {
             androidx.compose.material3.Icon(
-                androidx.compose.material.icons.Icons.Default.Info,
+                Icons.Default.Info,
                 contentDescription = null,
                 tint = com.privacyshield.app.ui.theme.PrimaryBlue,
             )
