@@ -125,7 +125,7 @@ private fun CameraPermissionDialog(
         onDismissRequest = onDisableShield,
         icon = {
             androidx.compose.material3.Icon(
-                androidx.compose.material.icons.Icons.Default.CameraAlt,
+                androidx.compose.material.icons.Icons.Default.Warning,
                 contentDescription = null,
                 tint = com.privacyshield.app.ui.theme.PrimaryBlue,
             )
